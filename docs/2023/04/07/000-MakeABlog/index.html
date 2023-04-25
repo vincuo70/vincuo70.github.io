@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"vincuo70.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="Some prerequisitesTake a look to Hexo Hexo  Take a course on MarkdownIt’s a very simple markup language; it’s fine to write a tech blog width it.  Markdown Cheat Sheet – How to Write Articles in Markd">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How make a DevBlog">
+<meta property="og:url" content="https://vincuo70.github.io/2023/04/07/000-MakeABlog/index.html">
+<meta property="og:site_name" content="vincuo70 NetDevBlog">
+<meta property="og:description" content="Some prerequisitesTake a look to Hexo Hexo  Take a course on MarkdownIt’s a very simple markup language; it’s fine to write a tech blog width it.  Markdown Cheat Sheet – How to Write Articles in Markd">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-04-06T22:00:00.000Z">
+<meta property="article:modified_time" content="2023-04-23T22:14:03.718Z">
+<meta property="article:author" content="Vincenzo Cuomo">
+<meta property="article:tag" content=".net vs-code">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://vincuo70.github.io/2023/04/07/000-MakeABlog/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'en'
+  };
+</script>
+
+  <title>How make a DevBlog | vincuo70 NetDevBlog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">vincuo70 NetDevBlog</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Some recipes of mine on how to develop software on .Net.</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://vincuo70.github.io/2023/04/07/000-MakeABlog/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Vincenzo Cuomo">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="vincuo70 NetDevBlog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          How make a DevBlog
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2023-04-07 00:00:00" itemprop="dateCreated datePublished" datetime="2023-04-07T00:00:00+02:00">2023-04-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-04-24 00:14:03" itemprop="dateModified" datetime="2023-04-24T00:14:03+02:00">2023-04-24</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="Some-prerequisites"><a href="#Some-prerequisites" class="headerlink" title="Some prerequisites"></a>Some prerequisites</h2><h3 id="Take-a-look-to-Hexo"><a href="#Take-a-look-to-Hexo" class="headerlink" title="Take a look to Hexo"></a>Take a look to Hexo</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a></li>
+</ul>
+<h3 id="Take-a-course-on-Markdown"><a href="#Take-a-course-on-Markdown" class="headerlink" title="Take a course on Markdown"></a>Take a course on Markdown</h3><p>It’s a very simple markup language; it’s fine to write a tech blog width it.</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.freecodecamp.org/news/markdown-cheatsheet/">Markdown Cheat Sheet – How to Write Articles in Markdown Language</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/zairahira/Markdown-cheatsheet/blob/main/README.md">Markdown cheatsheet</a></li>
+</ul>
+<h3 id="Use-winget"><a href="#Use-winget" class="headerlink" title="Use winget"></a>Use winget</h3><p>Do you know that Windows has it’s own packet manager?</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://learn.microsoft.com/en-us/windows/package-manager/winget/">Use the winget tool to install and manage applications</a></li>
+</ul>
+<h3 id="Install-Visual-Studio-Code-and-some-extensions"><a href="#Install-Visual-Studio-Code-and-some-extensions" class="headerlink" title="Install Visual Studio Code and some extensions"></a>Install Visual Studio Code and some extensions</h3><pre><code>winget install Microsoft.VisualStudioCode
+winget install Git.Git
+winget install GitExtensionsTeam.GitExtensions
+winget install --id GitHub.cli
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension hnw.vscode-auto-open-markdown-preview
+</code></pre>
+<h3 id="Install-Node"><a href="#Install-Node" class="headerlink" title="Install Node"></a>Install Node</h3><pre><code>winget install OpenJS.NodeJS.LTS
+</code></pre>
+<h3 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h3><pre><code>npm install hexo-cli -g
+</code></pre>
+<h2 id="Now-let’s-fire"><a href="#Now-let’s-fire" class="headerlink" title="Now let’s fire"></a>Now let’s fire</h2><h3 id="Prepare-post-repo"><a href="#Prepare-post-repo" class="headerlink" title="Prepare post repo"></a>Prepare post repo</h3><p>Create a repo with a markdown file for each post of your blog. Carefully assign the file name. If the article has images, add a folder with the same name as the file and put the images inside.</p>
+<h3 id="Create-workspace"><a href="#Create-workspace" class="headerlink" title="Create workspace"></a>Create workspace</h3><p>Choose a parent folder, and a new child folder name for your box then</p>
+<pre><code>hexo init vincuo70.github.io
+cd vincuo70.github.io
+npm install
+git clone https://github.com/theme-next/hexo-theme-next themes/next
+</code></pre>
+<p>Remove the file</p>
+<pre><code>rm source/_post/hello-world.md
+</code></pre>
+<p>Edit <code>_config.yml</code> as per your needs, set the theme name</p>
+<h3 id="Put-your-content"><a href="#Put-your-content" class="headerlink" title="Put your content"></a>Put your content</h3><p>Clone your posts repo.</p>
+<pre><code>git clone https://github.com/vincuo70/MyBlog source/_posts
+</code></pre>
+<h3 id="Generate-and-check-the-blog"><a href="#Generate-and-check-the-blog" class="headerlink" title="Generate and check the blog"></a>Generate and check the blog</h3><pre><code>hexo clean
+hexo generate
+hexo server
+</code></pre>
+<h3 id="Publish"><a href="#Publish" class="headerlink" title="Publish"></a>Publish</h3><p>Note: See another theme: <a target="_blank" rel="noopener" href="https://fluid-dev.github.io/hexo-fluid-docs/en/">Fluid</a></p>
+<p>Note II: See another wheel: <a target="_blank" rel="noopener" href="https://kiko.io/series/a-new-blog/">kiko.io</a></p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2023/04/01/001-NetOnUbuntu/" rel="prev" title="Develop .NET applications on Ubuntu">
+      <i class="fa fa-chevron-left"></i> Develop .NET applications on Ubuntu
+    </a></div>
+      <div class="post-nav-item"></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Some-prerequisites"><span class="nav-number">1.</span> <span class="nav-text">Some prerequisites</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Take-a-look-to-Hexo"><span class="nav-number">1.1.</span> <span class="nav-text">Take a look to Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Take-a-course-on-Markdown"><span class="nav-number">1.2.</span> <span class="nav-text">Take a course on Markdown</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Use-winget"><span class="nav-number">1.3.</span> <span class="nav-text">Use winget</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Install-Visual-Studio-Code-and-some-extensions"><span class="nav-number">1.4.</span> <span class="nav-text">Install Visual Studio Code and some extensions</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Install-Node"><span class="nav-number">1.5.</span> <span class="nav-text">Install Node</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Install-Hexo"><span class="nav-number">1.6.</span> <span class="nav-text">Install Hexo</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Now-let%E2%80%99s-fire"><span class="nav-number">2.</span> <span class="nav-text">Now let’s fire</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Prepare-post-repo"><span class="nav-number">2.1.</span> <span class="nav-text">Prepare post repo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-workspace"><span class="nav-number">2.2.</span> <span class="nav-text">Create workspace</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Put-your-content"><span class="nav-number">2.3.</span> <span class="nav-text">Put your content</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-and-check-the-blog"><span class="nav-number">2.4.</span> <span class="nav-text">Generate and check the blog</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Publish"><span class="nav-number">2.5.</span> <span class="nav-text">Publish</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Vincenzo Cuomo</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Vincenzo Cuomo</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
